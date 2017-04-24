@@ -7,8 +7,8 @@ void setup() {
   pinMode(A5,INPUT_PULLUP);
   
   byte numDigits = 4;
-  byte digitPins[] = {13,10, 9, 2};
-  byte segmentPins[] = {12, 8, 4, 6, 7, 11, 3, 5};
+  byte digitPins[] = {5,3,2,1};
+  byte segmentPins[] = {6,7,8,9,10,11,12,13};
   sevseg.begin(COMMON_CATHODE, numDigits, digitPins,segmentPins);
 
 }
